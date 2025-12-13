@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>Travel Booking Form</title>
+</head>
+<body style="background-color:WHITE; font-family:times new roman;">
+<h2 style="color:purple;"><b><u>TRAVEL BOOKING FORM</u></b></h2>
+<form><label style="color:blue;">First Name:</label>
+<input type="text" name="fname" placeholder="Enter First Name"><br><br>
+<label style="color:blue;">Last Name:</label>
+<input type="text" name="lname" placeholder="Enter Last Name"><br><br>
+<label style="color:blue;">Email ID:</label>
+<input type="email" name="email" placeholder="Enter Email"><br><br>
+<label style="color:blue;">Phone Number:</label>
+<input type="text" name="phone" placeholder="Enter Phone Number"><br><br>
+<label style="color:blue;">Aadhar Number:</label>
+<input type="text" name="aadhar" placeholder="Enter Aadhar Number"><br><br>
+<label style="color:blue;">Number of Travelers:</label>
+<input type="number" name="count" placeholder="Enter No. of Travelers"><br><br>
+<label style="color:blue;">Travel Date:</label>
+<input type="date" name="date"><br><br>
+<label style="color:blue;">Travel Type:</label><br>
+<input type="radio" name="type" value="One-way"> One-way
+<input type="radio" name="type" value="Round-trip"> Round Trip
+<input type="radio" name="type" value="Multi-city"> Multi-City<br><br>
+<label style="color:blue;">Destination:</label> <select name="destination">
+<option>Select Destination</option>
+<option>Chennai</option>
+<option>Bangalore</option><option>Hyderabad</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+<option>Others</option>
+</select><br><br>
+<label style="color:blue;">Preferred Transport:</label><br>
+<input type="checkbox" name="transport" value="Flight"> Flight<br>
+<input type="checkbox" name="transport" value="Train"> Train<br>
+<input type="checkbox" name="transport" value="Bus"> Bus<br>
+<input type="checkbox" name="transport" value="Car"> Car<br><br>
+<label style="color:blue;">Accommodation Required:</label><br>
+<input type="radio" name="stay" value="Yes"> Yes
+<input type="radio" name="stay" value="No"> No<br><br>
+<label style="color:blue;">Hotel Category:</label>
+<select name="hotel"> <option>Select</option>
+<option>3 Star</option>
+<option>4 Star</option>
+<option>5 Star</option>
+<option>Budget</option>
+</select><br><br>
+<label style="color:blue;">Special Requirements:</label><br>
+<textarea name="requirements" rows="4" cols="50" placeholder="Eg: Vegetarian meals,
+Wheelchair access"></textarea><br><br>
+<label style="color:blue;">Additional Notes:</label><br>
+<textarea name="notes" rows="5" cols="50" placeholder="Write any extra
+details"></textarea><br><br>
+<input type="submit" value="Book Now" style="background-color:lightgreen;">
+<input type="reset" value="Reset" style="background-color:lightcoral;">
+</form></body>
+</html>
